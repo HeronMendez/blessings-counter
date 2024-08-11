@@ -1,0 +1,64 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1695221087406-257eca10a2e7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#wrapper {
+  max-width: 400px;
+  margin: 10% auto;
+  background-color: #23353b;
+  color: #bdbca2;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: #a9bb7c;
+  border: 1px solid white;
+}
+
+#increment-btn:hover {
+  border: 1px solid gold;
+  color: #f7f5c4;
+}
+
+#increment-btn:active {
+  color: gold;
+}
+
+#save-btn {
+  background: #505058;
+  border: 1px solid #505058;
+}
+
+#save-btn:hover {
+  color: gold;
+  border: 1px solid gold;
+}
